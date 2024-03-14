@@ -157,9 +157,9 @@ p {
 </head>
 <Div>
 
-<Span id="demo"></span>
+<p id="demo"></p>
 
-<script type="text/javascript">
+<script>
 // Set the date we're counting down to
 var countDownDate = new Date("May 11, 2024 24:00:00").getTime();
 
@@ -168,9 +168,9 @@ var x = setInterval(function() {
 
   // Get today's date and time
   var now = new Date().getTime();
-    var otherTZ  = new DateTimeZone('Asia/Manila').getTime();
+    
   // Find the distance between now and the count down date
-  var distance = countDownDate - otherTZ;
+  var distance = countDownDate - now;
     
   // Time calculations for days, hours, minutes and seconds
   var days = Math.floor(distance / (1000 * 60 * 60 * 24));
