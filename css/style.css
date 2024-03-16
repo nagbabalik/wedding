@@ -19,6 +19,22 @@ body {
   background: #fff;
 }
 
+.close {
+  color: #FF0000;
+  display: block;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+
 #page {
   position: relative;
   overflow-x: hidden;
@@ -294,13 +310,35 @@ h1, h2, h3, h4, h5, h6, figure {
   -o-transform: scale(1.2);
   transform: scale(1.2);
 }
-
+.fullscreen-bg {
+       
+    }
 .fh5co-cover {
   height: 900px;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
   width: 100%;
+}
+#background-video{
+
+  position:relative;
+  overflow:hidden;
+  background-color:#000;
+  color:white;
+
+  
+}
+#background-video video{
+  position:absolute;
+   height: 900px;
+  width: 100%;
+  top:0;left:0;
+  object-fit:cover;
+  pointer-events:none;
+  opacity:.3;
+  z-index: 10;
+
 }
 .fh5co-cover .overlay {
   z-index: 0;
@@ -951,8 +989,8 @@ form label {
   position: relative;
   animation: pulse 1s ease infinite;
 }
-
-@keyframes pulse {
+ 
+ @keyframes pulse {
   0% {
     transform: scale(1);
   }
