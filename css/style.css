@@ -349,12 +349,13 @@ h1, h2, h3, h4, h5, h6, figure {
   right: 0;
   background: rgba(0, 0, 0, 0.5);
 }
+
 .fh5co-cover > .fh5co-container {
   position: relative;
   z-index: 10;
 }
 @media screen and (max-width: 768px) {
-  .fh5co-cover {
+  .fh5co-cover, #background-video {
     height: 600px;
   }
 }
