@@ -314,14 +314,9 @@ h1, h2, h3, h4, h5, h6, figure {
        
     }
 .fh5co-cover {
-  height: 900px;
- 
-  background-repeat: no-repeat;
-  position: relative;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+ background-repeat: no-repeat;
+     background-size: 140% 110%;
+     min-height: 100vh;
 }
 #background-video{
 
