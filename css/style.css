@@ -317,8 +317,8 @@ h1, h2, h3, h4, h5, h6, figure {
   height: 900px;
   background-size: cover;
   background-repeat: no-repeat;
-  position: relative;
-   width: 1550px;
+  position: center;
+   
 }
 #background-video{
 
