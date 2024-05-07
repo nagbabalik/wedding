@@ -92,9 +92,9 @@ let allMusic = [
   },
   {
     name: "Jennie Rose-Kenneth",
-    artist: "Salamin",
-    img: "Jennie Rose-Kenneth",
-    src: "Jennie Rose-Kenneth"
+    artist: "Kembot",
+    img: "Jennie Rose-Kenneth2",
+    src: "Jennie Rose-Kenneth2"
   },
 
 
