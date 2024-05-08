@@ -80,9 +80,9 @@ let allMusic = [
   },
   {
     name: "Kamille - Joseph",
-    artist: "Paro Paro G",
-    img: "Kamille-9",
-    src: "Kamille-9"
+    artist: "Nobody",
+    img: "Kamille2",
+    src: "Kamille2"
   },
    {
     name: "Clarisse - John Ralph",
