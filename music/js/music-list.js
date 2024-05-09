@@ -79,7 +79,7 @@ let allMusic = [
     src: "Rhea-Oliver"
   },
   {
-    name: "Kamille - Joseph",
+    name: "Kamille-Joseph",
     artist: "Nobody",
     img: "Kamille2",
     src: "Kamille2"
