@@ -50,7 +50,7 @@ let allMusic = [
   },
   {
     name: "Joanna - Christian",
-    artist: "% Little Monkeys",
+    artist: "5 Little Monkeys",
     img: "joanna-4",
     src: "joanna-4"
   },
